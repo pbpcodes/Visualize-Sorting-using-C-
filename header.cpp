@@ -13,9 +13,8 @@ void scrambleInputLinear(int input[], int size) {
         int random = eng() % size;
         int random2 = eng() % size;
 
-        int temp = input[random];
-        input[random] = input[random2];
-        input[random2] = temp;
+        swap(input[random],input[random2];
+        
     }
 }
 
